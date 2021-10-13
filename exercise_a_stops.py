@@ -18,6 +18,7 @@ stops.insert(0,"Glasgow Queen St")
 stops.insert(4,"Polmont")
 print('linlithgow is stop no. ', stops.index("Linlithgow"))
 print("\n")
+stops.remove("Livingston")
 del stops[2]
 print('the number of stops on the line is: ', len(stops))
 print("\n")
