@@ -28,10 +28,10 @@ print(newCap)
 united_kingdom.append({"name":"Ireland", "population":1811000, "capital":"Belfast"})
 print(united_kingdom)
 
-i=0
-for i in united_kingdom:
-    print(i['name'])
+for country in united_kingdom:
+  print(country['name'])
 
-k=0
-for k in united_kingdom:
-    print(k['population'])
+totalPop = 0
+for pop in united_kingdom:
+    totalPop += pop['population']
+print(totalPop)
